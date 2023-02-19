@@ -1,0 +1,13 @@
+Part A
+1. The main difference between concurrency and parallelism is how tasks are handled. Parallelism is when tasks are executed at the same time, and complete at the same time. This requires multiple processing units. Concurrency is when multiple tasks are completed at the same time, but are not necessary executed at the same time. This can be completed with just a single processing unit.
+
+2. The main difference between the shared memory and the message passing models is how memory is shared. In a shared memory model, multiple tasks share a single memory area where memory is read and written independentely and asynchronously. In a message passing model, each processor generally has its own memory. 
+
+5. In terms of parallel computation, there are some big differences between efficiency and speedup. Speedup is the ratio of sequential speed to parallel speed and is used to measure the benefit of decreased execution time. Efficiency is the measure of how much of the execution time is used towards useful work, often given as a fraction of the total time spent. As a result, the main difference is what is measured. Speedup measures the benefit of decreased execution time, and efficiency measures what fraction of execution time is put towards useful work.
+
+Part B
+1. Since execution time is equal to work divided by compute speed, then the answer is 4000 gflop = 4 tflop, and 4 tflop / 30 tflop/sec = 0.13 seconds. 
+
+2. Given 0.32 seconds and a speed of 2 Tflop/sec, 2 Tflop/sec * 0.32 sec = 0.64 Tflop = 640 Gflop.
+
+3. Given 450 Gflop/sec = 0.45 Tflop/sec, use the above formula to calculate 2000 Tflop / 0.45 Tflop/sec = 4444.444 seconds.
